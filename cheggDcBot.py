@@ -46,7 +46,7 @@ async def on_message(message):
 				await message.author.send(files=my_files)
 			else:
 	 			print("ERROR")
-	 	except:
-	 		pass
+		except:
+			pass
 
 bot.run("!!! SET YOUR BOT TOKEN HERE !!!")
